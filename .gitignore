@@ -3,6 +3,12 @@
 __pycache__
 *.pyc
 
-Misono_Worshipper
 Misono_Worshipper/Data
-Misono_CSS
+Misono_Worshipper/Frontend
+
+Misono_Worshipper/Worshipper
+Misono_Worshipper/App.tsna
+Misono_Worshipper/Config.json
+Misono_Worshipper/Main.py
+
+Misono_CSS/Eleison
