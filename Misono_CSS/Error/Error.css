@@ -1,0 +1,19 @@
+#app-mount::before {
+	position: absolute; top: 1rem; right: 1rem; z-index: 6948;
+	content: "[Misono] {TITLE}:\a{MESSAGE}\a\aIf this problem persists, report it to The Sirio Network's Administrators.\ahttps://sirio-network.com/contact\a";
+	white-space: pre;
+
+	color: rgba(255, 250, 255, 0.95);
+	backdrop-filter: blur(8px);
+	background: rgba(255, 30, 30, 0.5);
+	border: 4px solid rgba(255, 30, 30, 0.25);
+	border-radius: 33px; padding: 8px;
+
+	--Initial: 8rem;
+	animation: SNDL-Translate_Custom 1s;
+}
+
+@keyframes SNDL-Translate_Custom {
+	0% { translate: var(--Initial, 0rem); opacity: 0;}
+	100% { translate: var(--Final, 0rem);}
+}

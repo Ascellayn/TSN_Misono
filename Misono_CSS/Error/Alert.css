@@ -1,0 +1,16 @@
+#app-mount > div:not([class])::after {
+	position: absolute; top: -6948rem; left: 33vw; z-index: 6948; transform: translateY(32px);
+	content: "[Misono Worshipper] Account / Compilation Alert:\a {STRING_ALERT}";
+	min-width: 33vw; white-space: pre; line-height: 1.2;
+
+	color: var(--SNC-Text);
+	background: rgba(var(--SNDL-Orange_Primary), var(--SNDL-UI_Opacity_Floating));
+	border: var(--SNDL-UI_Border-Size) solid rgba(var(--SNDL-Orange_Primary), var(--SNDL-UI_Opacity_Background));
+	border-radius: var(--SNDL-UI_Border-Radius); padding: var(--SNDL-UI_Padding);
+	opacity: 0; pointer-events: none;
+
+	backdrop-filter: blur(var(--SNDL-Blur_Heavy));
+
+	--Initial: 0 -8rem; --Final: 0 -8rem;
+	animation: Misono-Fake_Notification var(--SNDL-Animation_HySlow) var(--SNDL-Animation_HySlow);
+}
