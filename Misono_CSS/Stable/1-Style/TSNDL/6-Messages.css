@@ -1,0 +1,4 @@
+/* DISCORD STOP HARDCODING COLORS INTO GENERIC ASS VARIABLES I BEG YOU */
+div[class^="message_"][class*="replying_"] {
+	background: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Hint)) !important;
+}

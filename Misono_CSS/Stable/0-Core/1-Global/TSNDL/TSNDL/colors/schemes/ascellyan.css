@@ -1,0 +1,9 @@
+html {
+	/* White-Pink */
+	--Ascellyan-Abyss: 225, 190, 225; /* #e1bee1 */
+	--Ascellyan-Night: 230, 200, 230; /* #e6c8e6 */
+	--Ascellyan-Moon: 235, 210, 235; /* #ebd2eb */
+	--Ascellyan-Sky: 245, 230, 245; /* #f5e6f5 */
+	--Ascellyan-Day: 250, 240, 250; /* #faf0fa */
+	--Ascellyan-Sun: 255, 250, 255; /* #fffaff */
+}

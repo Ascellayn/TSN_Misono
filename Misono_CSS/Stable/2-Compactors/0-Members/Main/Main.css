@@ -1,0 +1,23 @@
+main[class^="chatContent_"] + div[class^="container_"] {
+	translate: 200px;
+	margin-left: -200px;
+
+	transition: translate var(--SNDL-Transition_Normal);
+
+
+	h3[class^="membersGroup_"],
+	div[class*="nameplated_"] div[class="container_"] {
+		transition: opacity var(--SNDL-Transition_Slow);
+		opacity: 0;
+	}
+	
+}
+main[class^="chatContent_"] + div[class^="container_"]:hover {
+	translate: 0;
+
+
+	h3[class^="membersGroup_"],
+	div[class*="nameplated_"] div[class="container_"] {
+		opacity: 1;
+	}
+}

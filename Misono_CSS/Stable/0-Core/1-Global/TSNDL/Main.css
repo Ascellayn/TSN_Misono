@@ -1,0 +1,29 @@
+:root {
+	--Misono-Branch: "Stable";
+	--Misono-Version: "260401_ServerSlam";
+}
+
+/* Login Notification */
+@keyframes Misono-Fake_Notification {
+	0% { translate: var(--Initial, 0rem); opacity: 0; top: 0; display: block !important; }
+	10% { translate: 0; opacity: 1; top: 0; display: block !important; }
+	90% { translate: 0; opacity: 1; top: 0; display: block !important; }
+	100% { translate: var(--Final, 0rem); top: 0; display: block !important; }
+}
+
+#app-mount > div:not([class])::before {
+	position: absolute; top: -6948rem; left: 33vw; z-index: 6948; transform: translateY(32px);
+	content: "[Misono " var(--Misono-Branch) " v" var(--Misono-Version)"] Logged on successfully!\a {STRING_USERS} users have logged on in the past 24 hours.\a\a{STRING_WELCOME}";
+	min-width: 33vw; white-space: pre; line-height: 1.2;
+
+	color: var(--SNC-Text);
+	background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Floating));
+	border: var(--SNDL-UI_Border-Size) solid rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Background));
+	border-radius: var(--SNDL-UI_Border-Radius); padding: var(--SNDL-UI_Padding);
+	opacity: 0; pointer-events: none;
+
+	backdrop-filter: blur(var(--SNDL-Blur_Heavy));
+
+	--Initial: 0 -8rem; --Final: 0 -8rem;
+	animation: Misono-Fake_Notification var(--SNDL-Animation_HySlow);
+}

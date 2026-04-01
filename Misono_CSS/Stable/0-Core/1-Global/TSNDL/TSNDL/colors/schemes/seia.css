@@ -1,0 +1,9 @@
+html {
+	/* Yellow */
+	--Seia-Abyss: 135, 135, 0; /* #878700 */
+	--Seia-Night: 155, 155, 5; /* #9b9b05 */
+	--Seia-Moon: 175, 175, 10; /* #afaf0a */
+	--Seia-Sky: 215, 215, 20; /* #d7d714 */
+	--Seia-Day: 235, 235, 25; /* #ebeb19 */
+	--Seia-Sun: 255, 255, 30; /* #ffff1e */
+}

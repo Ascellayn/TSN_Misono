@@ -1,0 +1,9 @@
+html {
+	/* Grey Collection (Purple ish) */
+	--Sagittariian-Abyss: 90, 70, 90; /* #5a465a */
+	--Sagittariian-Night: 110, 90, 110; /* #6e5a6e */
+	--Sagittariian-Moon: 130, 110, 130; /* #826e82 */
+	--Sagittariian-Sky: 170, 150, 170; /* #aa96aa */ 
+	--Sagittariian-Day: 190, 170, 190; /* #beaabe */
+	--Sagittariian-Sun: 210, 190, 210; /* #d2bed2 */
+}

@@ -1,0 +1,9 @@
+html {
+	/* Black Collection (Blue/Purple ish) */
+	--Arellyan-Abyss: 20, 0, 20; /* #140014 */
+	--Arellyan-Night: 30, 10, 30; /* #1e0a1e */
+	--Arellyan-Moon: 40, 15, 40; /* #280f28 */
+	--Arellyan-Sky: 60, 25, 60; /* #3c193c */ 
+	--Arellyan-Day: 70, 30, 70; /* #461e46 */
+	--Arellyan-Sun: 80, 35, 80; /* #502350 */
+}

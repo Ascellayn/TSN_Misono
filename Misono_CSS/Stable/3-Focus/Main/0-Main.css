@@ -1,0 +1,32 @@
+div[class^="appAsidePanelWrapper_"] {
+	div[class^="notAppAsidePanel_"] > div[class^="app_"] {
+		transition-property: scale, filter;
+		transition-duration: var(--SNDL-Transition_Slow);
+	}
+	/* The :has(:not()) is to filter out user profiles popups, otherwise checking for aria-modal seems to do the trick for pretty much everything
+	We also ignore the image previewer for now as this will be handled entirely differently */
+	div[class^="notAppAsidePanel_"]:not(:has(div[id^="popout_"], div[class^="carouselModal_"])):has(div[class^="layerContainer_"] div[aria-modal="true"]:hover) .app_a3002d { /* >:( */
+		filter: blur(var(--SNDL-Blur_Heavy));
+		scale: 0.95;
+	}
+	div[class^="notAppAsidePanel_"]:not(:has(div[id^="popout_"], div[class^="carouselModal_"])):has(div[class^="layerContainer_"] div[aria-modal="true"]) .app_a3002d { /* >:( */
+		filter: blur(var(--SNDL-Blur_Normal));
+		scale: 0.98;
+	}
+
+	/* Settings Modal tweaks */
+	div[data-mana-component="layer-modal"] {
+		animation: SNDL-Fade_In var(--SNDL-Animation_Slow);
+		transform: unset !important;
+	}
+
+	/* Image Previewer */
+	div[class^="notAppAsidePanel_"]:has(div[class^="layerContainer_"] div[class^="carouselModal_"] div[class^="mediaArea_"]:hover) .app_a3002d { /* >:( */
+		filter: blur(var(--SNDL-Blur_Heavy));
+		scale: 0.95;
+	}
+	div[class^="notAppAsidePanel_"]:has(div[class^="layerContainer_"] div[class^="carouselModal_"] div[class^="mediaArea_"]) .app_a3002d { /* >:( */
+		filter: blur(var(--SNDL-Blur_Normal));
+		scale: 0.98;
+	}
+}

@@ -1,0 +1,5 @@
+/* Consistency: Left list is solid instead of transparent for Chat Utils */
+div[class^="autocompleteInner_"] > div[class^="rail_"],
+div[class*="categoryList_"], div[class*="packHeader_"]/* Emoji/Sticker Server List */
+[role="tabpanel"]
+{ background: transparent; }

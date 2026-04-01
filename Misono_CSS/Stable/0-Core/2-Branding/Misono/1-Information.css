@@ -1,0 +1,42 @@
+[id="account_security_tab-tab"] {
+	::after {
+		color: var(--SNC-Text);
+		white-space: pre-wrap;
+		line-height: 1.25rem;
+	}
+
+	[data-nav-anchor-key="account_removal_category"] {
+		> div:nth-last-child(1) > div:nth-last-child(1) > div:nth-last-child(1) > div:nth-last-child(1) > div:nth-last-child(1)::after {
+			content: "Misono " var(--Misono-Branch) " v" var(--Misono-Version);
+			padding-top: 2rem; padding-bottom: 0.5rem;
+			font-weight: bolder; font-size: large;
+		}
+		> div:nth-last-child(1) > div:nth-last-child(1) > div:nth-last-child(1) > div:nth-last-child(1)::after {
+			content: "Logged on as \"{USER_UUID}\", use this UUID to request for support. This UUID can be used to delete your account if you loose your Token, do not share it publicly.\a {STRING_USERS} users have logged into Misono in the past 24 hours.\a \a Latest Notification:\a {STRING_WELCOME}";
+		}
+		> div:nth-last-child(1) > div:nth-last-child(1) > div:nth-last-child(1)::after {
+			content: "Misono User Data";
+			padding-top: 2rem; padding-bottom: 0.5rem;
+			font-weight: bold; font-size: large;
+		}
+		> div:nth-last-child(1) > div:nth-last-child(1)::after {
+			content: 'The Sirio Network is commited to respecting user privacy. Therefore, your data is always available right here and is always up to date when you fetch Misono.\a To delete your account, head over to the Misono website. If you lost your Token and UUID, your account will be automatically deleted after one month.\a \a Please remember to NOT share your token nor UUID to anyone, as one of these is enough for us, upon being requested by email to delete your account.\a\a {USER_DATA}';
+			padding-left: 10px;
+		}
+		> div:nth-last-child(1)::after {
+			content: "Misono Debug Information";
+			padding-left: 10px; padding-top: 2rem; padding-bottom: 0.5rem;
+			font-weight: bold; font-size: large;
+		}
+	}
+	[data-nav-anchor-key="account_removal_category"]::after {
+		content: "{STRING_DEBUG}";
+		padding-left: 10px; white-space: break-spaces;
+	}
+
+	> div:nth-last-child(1)::after {
+		content: "Misono (CSS) © The Sirio Network (2026) - TSN License 2.1 Strict\a Misono (Worshipper) © The Sirio Network (2026) - All Rights Reserved";
+		padding-top: 2rem; padding-left: 10px;
+		font-weight: 100;
+	}
+}

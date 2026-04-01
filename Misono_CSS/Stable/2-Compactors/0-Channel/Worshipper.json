@@ -1,0 +1,26 @@
+{
+	"Info": {
+		"Name": "Misono Channel Compactor",
+		"Internal": "Compactor_Chat",
+		"Description": "Flashcord's signature \"chat slide\", for Misono.",
+		"Preview": {
+			"Main": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+		}
+	},
+	"Module": {
+		"Compatibility": {
+			"Dependencies": {
+				"Hard": [
+					"Core_Globals"
+				],
+				"Soft": [
+					"Misono_Style"
+				]
+			}
+		},
+		"Variants": [
+			"Main"
+		],
+		"Settings": []
+	}
+}

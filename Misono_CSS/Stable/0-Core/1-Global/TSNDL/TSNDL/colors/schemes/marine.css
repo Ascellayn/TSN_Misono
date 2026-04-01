@@ -1,0 +1,9 @@
+html {
+	/* Blue */
+	--Marine-Abyss: 10, 0, 75; /* #0a004b */
+	--Marine-Night: 15, 0, 105; /* #0f0069 */
+	--Marine-Moon: 20, 0, 135; /* #140087 */
+	--Marine-Sky: 30, 0, 195; /* #1e00c3 */
+	--Marine-Day: 35, 0, 225; /* #2300e1 */
+	--Marine-Sun: 40, 0, 255; /* #2800ff */
+}

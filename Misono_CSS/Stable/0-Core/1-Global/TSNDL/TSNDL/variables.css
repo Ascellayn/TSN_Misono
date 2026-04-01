@@ -1,0 +1,43 @@
+:root {
+	/* General UI */
+	--SNDL-Font_Primary: "Roboto";
+	--SNDL-Font_Monospace: "Fixedsys Excelsior";
+
+	--SNDL-UI_Outline-Size: 1px;
+	--SNDL-UI_Border-Size: 4px;
+	--SNDL-UI_Border-Radius: 33px;
+	--SNDL-UI_Border-Radius_Alt: 12.5px;
+	--SNDL-UI_Border-Radius_Circle: 6948px;
+	--SNDL-UI_Border-Radius_Square: 2px;
+	--SNDL-UI_Margin: 8px;
+	--SNDL-UI_Padding: 8px;
+
+	/* Variables with Modifiers */
+	--SNDL-Animation_XFast: calc(var(--SNDL-Animation_Multiplier, 1) * 62.5ms);
+	--SNDL-Animation_Fast: calc(var(--SNDL-Animation_Multiplier, 1) * 125ms);
+	--SNDL-Animation_Normal: calc(var(--SNDL-Animation_Multiplier, 1) * 250ms);
+	--SNDL-Animation_Slow: calc(var(--SNDL-Animation_Multiplier, 1) * 500ms);
+	--SNDL-Animation_XSlow: calc(var(--SNDL-Animation_Multiplier, 1) * 1s);
+	--SNDL-Animation_XTSlow: calc(var(--SNDL-Animation_Multiplier, 1) * 2s);
+	--SNDL-Animation_XTXSlow: calc(var(--SNDL-Animation_Multiplier, 1) * 4s);
+	--SNDL-Animation_HySlow: calc(var(--SNDL-Animation_Multiplier, 1) * 8s);
+
+	--SNDL-Transition_XFast: calc(var(--SNDL-Transition_Multiplier, 1) * 62.5ms);
+	--SNDL-Transition_Fast: calc(var(--SNDL-Transition_Multiplier, 1) * 125ms);
+	--SNDL-Transition_Normal: calc(var(--SNDL-Transition_Multiplier, 1) * 250ms);
+	--SNDL-Transition_Slow: calc(var(--SNDL-Transition_Multiplier, 1) * 500ms);
+	--SNDL-Transition_XSlow: calc(var(--SNDL-Transition_Multiplier, 1) * 1s);
+	--SNDL-Transition_XTSlow: calc(var(--SNDL-Transition_Multiplier, 1) * 2s);
+	--SNDL-Transition_XTXSlow: calc(var(--SNDL-Transition_Multiplier, 1) * 4s);
+	--SNDL-Transition_HyXSlow: calc(var(--SNDL-Transition_Multiplier, 1) * 8s);
+
+	--SNDL-Blur_Heavy: calc(var(--SNDL-Blur_Multiplier, 1) * 16px);
+	--SNDL-Blur_Normal: calc(var(--SNDL-Blur_Multiplier, 1) * 8px);
+	--SNDL-Blur_Light: calc(var(--SNDL-Blur_Multiplier, 1) * 4px);
+	--SNDL-Blur_Feather: calc(var(--SNDL-Blur_Multiplier, 1) * 2px);
+
+	--SNDL-UI_Opacity_Solid: 0.8;
+	--SNDL-UI_Opacity_Floating: 0.5;
+	--SNDL-UI_Opacity_Background: 0.25;
+	--SNDL-UI_Opacity_Hint: 0.1;
+}

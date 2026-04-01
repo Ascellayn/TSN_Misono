@@ -1,0 +1,9 @@
+html {
+	/* Red */
+	--Wakamo-Abyss: 105, 0, 0; /* #690000 */
+	--Wakamo-Night: 130, 5, 5; /* #820505 */
+	--Wakamo-Moon: 155, 10, 10; /* #9b0a0a */
+	--Wakamo-Sky: 205, 20, 20; /* #cd1414 */
+	--Wakamo-Day: 230, 25, 25; /* #e61919 */
+	--Wakamo-Sun: 255, 30, 30; /* #ff1e1e */
+}

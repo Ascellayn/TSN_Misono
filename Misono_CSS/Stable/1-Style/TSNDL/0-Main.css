@@ -1,0 +1,611 @@
+.theme-light, .theme-dark {
+	--app-frame-background: rgb(var(--SNDL-Green_Primary)); /*?*/
+	--app-frame-border: transparent; /* Outline */
+	--app-message-embed-secondary-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--background-accent: rgb(var(--SNC-IPrimary));
+	--background-base-low: rgb(var(--SNC-Primary));
+	--background-base-lower: rgb(var(--SNC-Primary));
+	--background-base-lowest: rgb(var(--SNC-Primary));
+
+	--background-brand: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Solid)); /* Bot Tags */
+
+	--background-code: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Solid)); /* Does not affect code in files */
+	--background-code-addition: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Background));
+	--background-code-deletion: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Background));
+
+	--background-feedback-critical: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Hint));
+	--background-feedback-info: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Hint));
+	--background-feedback-notification: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Solid)); /* Affects Pinned Notification */
+	--background-feedback-positive: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Hint));
+	--background-feedback-warning: rgba(var(--SNDL-Yellow_Primary), var(--SNDL-UI_Opacity_Hint));
+
+	--background-mod-muted: rgba(var(--SNDL-Grey_Primary), var(--SNDL-UI_Opacity_Background));
+	--background-mod-normal: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Solid)); /* Affects Timestamps??? Also Title Bar Hover */
+	--background-mod-strong: rgba(var(--SNDL-Grey_Tertiary), var(--SNDL-UI_Opacity_Background)); /* Clan Tags */
+	--background-mod-subtle: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Background)); /* Affects 50% of Hover Options, Server Folders Too */
+
+	--background-scrim: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Hint)); /* Modal Background (Behind) */
+	--background-scrim-lightbox: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Hint)); /* IMG Focus Background (Behind) */
+
+	--background-secondary-alt: transparent; /* Stream Preview */
+
+	--background-surface-high: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid)); /* Affects some cards and tooltip backgrounds */
+	--background-surface-higher: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid)); /* Some drop menus */
+	--background-surface-highest: rgb(var(--SNC-Primary)); /* Status speech bubbles */
+
+	/* Top of gradient used in notably voice chat */
+	--background-tile-gradient-pink-end: transparent;
+	--background-tile-gradient-pink-start: transparent;
+
+	--badge-background-brand: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Solid)); /* "NEW" background (server list)*/
+	--badge-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--badge-expressive-background-default: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Solid)); /* "NEW" background */
+	--badge-expressive-text-default: var(--SNC-Text_White); /* "NEW" text */
+	--badge-notification-background: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Solid)); /* Mentions */
+	--badge-text-brand: var(--SNC-Text_White); /* Used in Ping Text */
+	--badge-text-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--bg-surface-raised: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--border-feedback-critical: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Solid)); /* Some rare |[Text] things*/
+	--border-focus: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating)); /* Borders of drop down select */
+	--border-muted: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating)); /* General Button Borders, annoying since TSNDL has different border colors depending on the button's background color */
+	--border-normal: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating)); /* General Modal Borders */
+	--border-strong: rgba(var(--SNC-ITertiary), var(--SNDL-UI_Opacity_Floating)); /* Some different spacers in settings modal*/
+	--border-subtle: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Floating)); /* Smaller details, spacers notably for the app frame or drop down menus */
+
+	--button-danger-background-disabled: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--button-outline-brand-background-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--button-outline-brand-border-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--button-outline-primary-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--card-background-default: transparent; /* Some text fields */
+	--card-primary-pressed-bg: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--card-secondary-bg: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--card-secondary-pressed-bg: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--channel-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--channel-icon: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--channel-text-area-placeholder: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--channels-default: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--channeltextarea-background: rgba(var(--SNC-ITertiary), var(--SNDL-UI_Opacity_Floating)); /* Used as a spacer in payment modal??? */
+
+	--chart-brand: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-1: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-10: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-2: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-3: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-4: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-5: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-6: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-7: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-8: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-categorical-9: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chart-mono-1: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-1-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-2: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-2-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-3: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-3-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-4: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-4-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-5: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-5-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-6: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-6-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-7: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-mono-7-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chart-negative: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-neutral: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chart-positive: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chat-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chat-background-default: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Hint)); /* The actual background used for the chat */
+	--chat-border: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chat-text-muted: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating)); /* Timestamp next to message */
+
+	--checkbox-background-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--checkbox-background-default: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--checkbox-background-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+
+	--checkbox-background-selected-default: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Floating));
+	--checkbox-background-selected-hover: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Floating));
+
+	--checkbox-border-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--checkbox-border-default: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--checkbox-border-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+
+	--checkbox-border-selected-default: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Background));
+	--checkbox-border-selected-hover: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Background));
+	--checkbox-icon-active: var(--SNC-Text_White);
+
+	--chip-blurple-dark-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-blurple-dark-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-blurple-light-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-blurple-light-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-blurple-medium-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-blurple-medium-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chip-gray-dark-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-gray-dark-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-gray-light-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-gray-light-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-gray-medium-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-gray-medium-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chip-green-dark-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-green-dark-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-green-light-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-green-light-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-green-medium-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-green-medium-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chip-orange-dark-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-orange-dark-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-orange-light-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-orange-light-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-orange-medium-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-orange-medium-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chip-pink-dark-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-pink-dark-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-pink-light-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-pink-light-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-pink-medium-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-pink-medium-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chip-purple-dark-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-purple-dark-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-purple-light-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-purple-light-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-purple-medium-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-purple-medium-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chip-red-dark-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-red-dark-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-red-light-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-red-light-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-red-medium-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-red-medium-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--chip-yellow-dark-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-yellow-dark-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-yellow-light-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-yellow-light-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-yellow-medium-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--chip-yellow-medium-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--content-inventory-media-seekbar-container: rgba(var(--SNC-IText), var(--SNDL-UI_Opacity_Solid));
+	--content-inventory-overlay-text-primary: var(--SNC-Text);
+	--content-inventory-overlay-text-secondary: var(--SNC-Header);
+
+	--context-menu-backdrop-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--control-brand-foreground: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Background)); /* Poll Border */
+	--control-brand-foreground-new: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	/* Save Changes button */
+	--control-connected-background-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Background));
+	--control-connected-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-connected-background-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-connected-border-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-connected-border-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Background));
+	--control-connected-border-hover:rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Background));
+	--control-connected-icon-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-connected-icon-default:rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-connected-icon-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-connected-text-active: var(--SNC-Text);
+	--control-connected-text-default: var(--SNC-Text);
+	--control-connected-text-hover: var(--SNC-Text);
+
+	--control-critical-primary-background-active: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Background));
+	--control-critical-primary-background-default: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-critical-primary-background-hover: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-critical-primary-border-active: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-critical-primary-border-default: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Background));
+	--control-critical-primary-border-hover: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Background));
+	--control-critical-primary-icon-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid));
+	--control-critical-primary-icon-default: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid));
+	--control-critical-primary-icon-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid));
+	--control-critical-primary-text-active: rgba(var(--SNC-Text));
+	--control-critical-primary-text-default: rgba(var(--SNC-Text));
+	--control-critical-primary-text-hover: rgba(var(--SNC-Text));
+
+	--control-critical-secondary-background-active: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-critical-secondary-background-default: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-critical-secondary-background-hover: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-critical-secondary-border-active: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-critical-secondary-border-default:rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-critical-secondary-border-hover: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-critical-secondary-icon-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-critical-secondary-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-critical-secondary-icon-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-critical-secondary-text-active: var(--SNC-Text_Red);
+	--control-critical-secondary-text-default: var(--SNC-Text_Red);
+	--control-critical-secondary-text-hover: var(--SNC-Text_Red);
+
+	/* Nitro shit */
+	--control-expressive-background-active: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-expressive-background-default: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-expressive-background-hover: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-expressive-border-active: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-expressive-border-default: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-expressive-border-hover: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-expressive-icon-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-expressive-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-expressive-icon-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-expressive-text-active: var(--SNC-Text);
+	--control-expressive-text-default: var(--SNC-Text);
+	--control-expressive-text-hover: var(--SNC-Text);
+
+	/* (X) */
+	--control-icon-only-background-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--control-icon-only-background-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-icon-only-border-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-icon-only-border-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--control-icon-only-icon-active: var(--SNC-Text);
+	--control-icon-only-icon-default: var(--SNC-Text);
+	--control-icon-only-icon-hover: var(--SNC-Text);
+
+	/* Ven donate button?? */
+	--control-overlay-primary-background-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--control-overlay-primary-background-default: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-overlay-primary-background-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-overlay-primary-border-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-overlay-primary-border-default: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--control-overlay-primary-border-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--control-overlay-primary-icon-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-overlay-primary-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-overlay-primary-icon-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-overlay-primary-text-active: var(--SNC-Text);
+	--control-overlay-primary-text-default: var(--SNC-Text);
+	--control-overlay-primary-text-hover: var(--SNC-Text);
+
+	/* Affects very small (...) elements such as popup mini profile */
+	--control-overlay-secondary-background-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--control-overlay-secondary-background-default: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-overlay-secondary-background-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-overlay-secondary-border-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Floating));
+	--control-overlay-secondary-border-default: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--control-overlay-secondary-border-hover: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Background));
+	--control-overlay-secondary-icon-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-overlay-secondary-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-overlay-secondary-icon-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-overlay-secondary-text-active: var(--SNC-Text); /* In VC Username & Icon*/
+	--control-overlay-secondary-text-default: var(--SNC-Text);
+	--control-overlay-secondary-text-hover: var(--SNC-Text); /* In VC Username & Icon*/
+
+	/* Generic Buttons */
+	--control-primary-background-active: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--control-primary-background-default: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--control-primary-background-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--control-primary-border-active: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--control-primary-border-default: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--control-primary-border-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--control-primary-icon-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-primary-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-primary-icon-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-primary-text-active: var(--SNC-IText);
+	--control-primary-text-default: var(--SNC-IText);
+	--control-primary-text-hover: var(--SNC-IText);
+
+	/* Generic Buttons part 2 */
+	--control-secondary-background-active: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-secondary-background-default: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-secondary-background-hover: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-secondary-border-active: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--control-secondary-border-default: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-secondary-border-hover: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--control-secondary-icon-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-secondary-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-secondary-icon-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--control-secondary-text-active: var(--SNC-Text);
+	--control-secondary-text-default: var(--SNC-Text);
+	--control-secondary-text-hover: var(--SNC-Text);
+
+	--creator-revenue-icon-gradient-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--creator-revenue-icon-gradient-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--creator-revenue-info-box-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--creator-revenue-info-box-border: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--creator-revenue-locked-channel-icon: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--creator-revenue-progress-bar: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--datepicker-range-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--datepicker-range-background-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--embed-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--embed-background-alternate: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--experimental-avatar-embed-bg: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--expressive-gradient-blue-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-blue-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-green-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-green-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-nitro-green-end: transparent;
+	--expressive-gradient-nitro-green-start: transparent;
+	--expressive-gradient-nitro-pink-end: transparent;
+	--expressive-gradient-nitro-pink-start: transparent;
+	--expressive-gradient-pink-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-pink-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-purple-end: transparent; /* Used in Setting Channel Status */
+	--expressive-gradient-purple-start: transparent;
+	--expressive-gradient-tenure-badge-bronze-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-diamond-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-diamond-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-emerald-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-emerald-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-gold-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-gold-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-opal-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-opal-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-platinum-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-platinum-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-ruby-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-ruby-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-silver-end: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--expressive-gradient-tenure-badge-silver-start: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--gradient-progress-pill-background: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Solid)); /* Mic Test */
+
+	--guild-profile-banner-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--home-background: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid)); /* Some elements in the quick settings bottom left of main view, notably discord quest */
+
+	/* Icons and sometimes border colors because ??? */
+	--icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-feedback-critical: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Solid)); /* Logout Icon */
+	--icon-feedback-info: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Solid)); /* Border Color */
+	--icon-feedback-notification: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-feedback-positive: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /* Notably VC RTC Icon */
+	--icon-feedback-warning: rgba(var(--SNDL-Yellow_Primary), var(--SNDL-UI_Opacity_Solid)); /* Border Color */
+	--icon-invert: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-link: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-muted: rgba(var(--SNC-ITertiary), var(--SNDL-UI_Opacity_Floating));
+	--icon-overlay-dark: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-overlay-light: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-status-dnd: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-status-idle: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-status-offline: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-status-online: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-strong: var(--SNC-Text); /* Active Icon */
+	--icon-subtle: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Solid)); /* Really small "v" icons */
+	--icon-transparent: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-voice-connected: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-voice-disconnected: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-voice-muted: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Solid));
+	--icon-voice-speaking: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	/* Notably Search Box */
+	--input-background-default: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid));
+	--input-background-error-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--input-border-active: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Floating));
+	--input-border-default: rgba(var(--SNC-Secondary), var(--SNDL-UI_Opacity_Background));
+	--input-border-error-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--input-border-hover: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Floating));
+	--input-border-readonly: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--input-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--input-placeholder-text-default: var(--SNC-Text_Grey);
+	--input-text-default: var(--SNC-Text);
+	--input-text-error-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--interactive-accent-background-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--interactive-accent-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--interactive-accent-background-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--interactive-accent-background-selected: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--interactive-background-active: rgba(var(--SNDL-Grey_Primary), var(--SNDL-UI_Opacity_Floating));
+	--interactive-background-hover: rgba(var(--SNDL-Grey_Primary), var(--SNDL-UI_Opacity_Background));
+	--interactive-background-selected: rgba(var(--SNDL-Grey_Primary), var(--SNDL-UI_Opacity_Background));
+	--interactive-icon-active: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--interactive-icon-default: var(--SNC-Text);
+	--interactive-icon-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--interactive-muted: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--interactive-text-active: var(--SNC-Text);
+	--interactive-text-default: var(--SNC-Text);
+	--interactive-text-hover: var(--SNC-Text);
+
+	--logo-primary: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--mention-background: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Hint));
+	--mention-foreground: var(--SNC-Text_Cyan);
+
+	--message-automod-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--message-automod-background-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--message-background-hover: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Background));
+	--message-highlight-background-default: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Hint));
+	--message-highlight-background-hover: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Hint));
+	--message-mentioned-background-default: rgba(var(--SNDL-Yellow_Primary), var(--SNDL-UI_Opacity_Hint));
+	--message-mentioned-background-hover: rgba(var(--SNDL-Yellow_Primary), var(--SNDL-UI_Opacity_Hint));
+
+	--mobile-background-scrim-opaque: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--mobile-expression-picker-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--mobile-guildbar-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--mobile-text-heading-primary: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--modal-background: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid));
+	--modal-footer-background: transparent;
+
+	--navigator-header-tint: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--notice-background-critical: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Background));
+	--notice-background-info: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Background));
+	--notice-background-positive: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Background));
+	--notice-background-warning: rgba(var(--SNDL-Yellow_Primary), var(--SNDL-UI_Opacity_Solid));
+	--notice-text-critical: var(--SNC-Text); /*?*/
+	--notice-text-info: var(--SNC-Text);
+	--notice-text-positive: var(--SNC-Text);
+	--notice-text-warning: var(--SNC-Text);
+
+	--overlay-backdrop-lightbox: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--panel-bg: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--polls-normal-image-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--polls-victor-fill: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Background));
+	--polls-voted-fill: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Background));
+
+	--premium-nitro-pink-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--profile-gradient-note-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--profile-gradient-overlay: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--profile-gradient-overlay-synced-with-user-theme: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--profile-gradient-role-pill-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--profile-gradient-role-pill-border: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--profile-gradient-section-box: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--progressbar-indicator-background: rgba(var(--SNDL-Blue_Primary), var(--SNDL-UI_Opacity_Floating));
+	--progressbar-track-background: rgba(var(--SNC-ITertiary), var(--SNDL-UI_Opacity_Hint));
+
+	--radio-background-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--radio-background-default: transparent;
+	--radio-background-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--radio-background-selected-default: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--radio-background-selected-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--radio-border-active: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--radio-border-default: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--radio-border-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--radio-border-selected-default: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--radio-border-selected-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--radio-foreground-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--radio-foreground-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--radio-foreground-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--radio-thumb-background-active: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid));
+
+	--reaction-background-active: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--reaction-background-default: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Hint));
+	--reaction-background-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Hint));
+	--reaction-background-reacted-default: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Hint));
+	--reaction-background-reacted-hover: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Hint));
+	--reaction-border-active: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--reaction-border-default: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--reaction-border-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--reaction-border-reacted-default: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Background));
+	--reaction-text-active: var(--SNC-Text);
+	--reaction-text-default: var(--SNC-Text);
+	--reaction-text-hover: var(--SNC-Text);
+	--reaction-text-reacted-default: var(--SNC-Text);
+
+	--redesign-button-premium-primary-pink-for-gradient: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--redesign-button-premium-primary-pressed-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--redesign-button-premium-primary-purple-for-gradient: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--redesign-button-premium-primary-purple-for-gradient-2: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--redesign-button-tertiary-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--redesign-button-tertiary-pressed-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--redesign-button-tertiary-pressed-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--redesign-button-tertiary-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--scrollbar-auto-scrollbar-color-thumb: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--scrollbar-auto-scrollbar-color-track: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--scrollbar-auto-thumb: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Solid)); /* Main Scroll Bar */
+	--scrollbar-auto-track: transparent;
+
+	--scrollbar-thin-thumb: transparent; /* Secondary Scroll Bars */
+	--scrollbar-thin-track: transparent;
+
+	--slider-track-background: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Hint));
+
+	--spine-default: rgb(var(--SNC-IPrimary)); /* Can't be transparent due to overlap */
+
+	--spoiler-hidden-background: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating));
+	--spoiler-hidden-background-hover: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Background));
+	--spoiler-revealed-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--__spoiler-background-color--revealed: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Solid)); /* I wanna know what discord smoked when they named this abomination, especially since the variable above doesn't seem used */
+
+	--status-danger: var(--SNC-Text_Red); /* Message logger red text for some reason */
+	--status-online: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--status-positive: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--status-positive-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--status-positive-text: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--status-speaking: rgba(var(--SNDL-Pink_Primary), var(--SNDL-UI_Opacity_Solid));
+	--status-warning: rgba(var(--SNDL-Yellow_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--status-warning-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--status-warning-text: rgba(var(--SNC-Primary), var(--SNDL-UI_Opacity_Solid));
+
+	--steam-review-text-mixed: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--steam-review-text-negative: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--steam-review-text-positive: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--switch-background-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-background-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-background-selected-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-background-selected-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-border-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-border-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-border-selected-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-border-selected-hover: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-thumb-background-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-thumb-background-selected-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-thumb-icon-active: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--switch-thumb-icon-default: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--text-brand: var(--SNC-Text_Blue);
+
+	--text-code: var(--SNC-Text_Blue);
+	--text-code-addition: var(--SNC-Text_Green);
+	--text-code-builtin: var(--SNC-Text_Orange);
+	--text-code-bullet: var(--SNC-Text_Yellow);
+	--text-code-comment: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--text-code-deletion: var(--SNC-Text_Red);
+	--text-code-keyword: var(--SNC-Header_Red);
+	--text-code-section: var(--SNC-Text_Blue);
+	--text-code-string: var(--SNC-Text_Cyan);
+	--text-code-tag: var(--SNC-Text_Green);
+	--text-code-title: var(--SNC-Text_Blue);
+	--text-code-variable: var(--SNC-Text_Blue);
+
+	--text-default: var(--SNC-Text);
+
+	--text-feedback-critical: var(--SNC-Header_Red);
+	--text-feedback-info: var(--SNC-Header_Blue);
+	--text-feedback-positive: var(--SNC-Header_Green);
+	--text-feedback-warning: var(--SNC-Header_Yellow);
+
+	--text-invert: var(--SNC-IText);
+	--text-link: var(--SNC-Text_Cyan); /* Not using SNDL's Link variable for consistency sake */
+	--text-muted: rgba(var(--SNC-ITertiary), var(--SNDL-UI_Opacity_Floating));
+
+	--text-overlay-dark: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--text-overlay-light: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--text-status-dnd: var(--SNC-Header_Red);
+	--text-status-idle: var(--SNC-Header_Yellow);
+	--text-status-offline: rgba(var(--SNDL-Grey_Tertiary), var(--SNDL-UI_Opacity_Solid)); /* Used in Offline Members for Guild Member Counts */
+	--text-status-online: var(--SNC-Header_Green);
+
+	--text-strong: var(--SNC-Header);
+	--text-subtle: var(--SNC-Text);
+
+	--text-voice-connected: var(--SNC-Header_Green);
+	--text-voice-disconnected: var(--SNC-Header_Red);
+	--text-voice-speaking: var(--SNC-Header_Green);
+
+	--textbox-markdown-syntax: rgba(var(--SNDL-Grey_Tertiary), var(--SNDL-UI_Opacity_Solid));
+	--thread-channel-spine: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	--user-profile-activity-toolbar-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--user-profile-background-hover: rgba(var(--SNDL-Grey_Tertiary), var(--SNDL-UI_Opacity_Hint)); /* Clan tag hover for some reason */
+	--user-profile-border: transparent;
+	--user-profile-note-background-focus: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Background));
+	--user-profile-overlay-background: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Background));
+	--user-profile-overlay-background-hover: rgba(var(--SNC-Tertiary), var(--SNDL-UI_Opacity_Floating));
+	--user-profile-toolbar-background: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--user-profile-toolbar-border: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+
+	/* Annoying stinky variables that are just plain colors used in a bunch of places */
+	--brand-500: rgba(var(--SNDL-Cyan_Primary), var(--SNDL-UI_Opacity_Solid));/* Hover Mention */
+}
+
+.theme-midnight {
+	/* THIS THEME IS EXPERIMENTAL AND DOES NOT ADHERE TO TSNDL'S GUIDELINES */
+	--background-accent: #000;
+	--background-base-low: #000;
+	--background-base-lower: #000;
+	--background-base-lowest: #000;
+
+	--text-default: rgba(var(--Ascellyan-Sun), 0.95);
+}

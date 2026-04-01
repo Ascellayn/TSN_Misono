@@ -1,0 +1,78 @@
+.theme-dark {
+	--SNDL-Black_Primary: var(--Arellyan-Moon);
+	--SNDL-Black_Secondary: var(--Arellyan-Night);
+	--SNDL-Black_Tertiary: var(--Arellyan-Abyss);
+	--SNDL-BlackI_Primary: var(--Arellyan-Sun);
+	--SNDL-BlackI_Secondary: var(--Arellyan-Day);
+	--SNDL-BlackI_Tertiary: var(--Arellyan-Sky);
+
+	--SNDL-White_Primary: var(--Ascellyan-Moon);
+	--SNDL-White_Secondary: var(--Ascellyan-Night);
+	--SNDL-White_Tertiary: var(--Ascellyan-Abyss);
+	--SNDL-WhiteI_Primary: var(--Ascellyan-Sun);
+	--SNDL-WhiteI_Secondary: var(--Ascellyan-Day);
+	--SNDL-WhiteI_Tertiary: var(--Ascellyan-Sky);
+
+	--SNDL-Grey_Primary: var(--Sagittariian-Moon);
+	--SNDL-Grey_Secondary: var(--Sagittariian-Night);
+	--SNDL-Grey_Tertiary: var(--Sagittariian-Abyss);
+	--SNDL-GreyI_Primary: var(--Sagittariian-Sun);
+	--SNDL-GreyI_Secondary: var(--Sagittariian-Day);
+	--SNDL-GreyI_Tertiary: var(--Sagittariian-Sky);
+
+	--SNDL-Red_Primary: var(--Wakamo-Moon);
+	--SNDL-Red_Secondary: var(--Wakamo-Night);
+	--SNDL-Red_Tertiary: var(--Wakamo-Abyss);
+	--SNDL-RedI_Primary: var(--Wakamo-Sun);
+	--SNDL-RedI_Secondary: var(--Wakamo-Day);
+	--SNDL-RedI_Tertiary: var(--Wakamo-Sky);
+
+	--SNDL-Orange_Primary: var(--Maple-Moon);
+	--SNDL-Orange_Secondary: var(--Maple-Night);
+	--SNDL-Orange_Tertiary: var(--Maple-Abyss);
+	--SNDL-OrangeI_Primary: var(--Maple-Sun);
+	--SNDL-OrangeI_Secondary: var(--Maple-Day);
+	--SNDL-OrangeI_Tertiary: var(--Maple-Sky);
+
+	--SNDL-Yellow_Primary: var(--Seia-Moon);
+	--SNDL-Yellow_Secondary: var(--Seia-Night);
+	--SNDL-Yellow_Tertiary: var(--Seia-Abyss);
+	--SNDL-YellowI_Primary: var(--Seia-Sun);
+	--SNDL-YellowI_Secondary: var(--Seia-Day);
+	--SNDL-YellowI_Tertiary: var(--Seia-Sky);
+
+	--SNDL-Green_Primary: var(--Otogi-Moon);
+	--SNDL-Green_Secondary: var(--Otogi-Night);
+	--SNDL-Green_Tertiary: var(--Otogi-Abyss);
+	--SNDL-GreenI_Primary: var(--Otogi-Sun);
+	--SNDL-GreenI_Secondary: var(--Otogi-Day);
+	--SNDL-GreenI_Tertiary: var(--Otogi-Sky);
+
+	--SNDL-Cyan_Primary: var(--Glacier-Moon);
+	--SNDL-Cyan_Secondary: var(--Glacier-Night);
+	--SNDL-Cyan_Tertiary: var(--Glacier-Abyss);
+	--SNDL-CyanI_Primary: var(--Glacier-Sun);
+	--SNDL-CyanI_Secondary: var(--Glacier-Day);
+	--SNDL-CyanI_Tertiary: var(--Glacier-Sky);
+
+	--SNDL-Blue_Primary: var(--Marine-Moon);
+	--SNDL-Blue_Secondary: var(--Marine-Night);
+	--SNDL-Blue_Tertiary: var(--Marine-Abyss);
+	--SNDL-BlueI_Primary: var(--Marine-Sun);
+	--SNDL-BlueI_Secondary: var(--Marine-Day);
+	--SNDL-BlueI_Tertiary: var(--Marine-Sky);
+
+	--SNDL-Purple_Primary: var(--Nebula-Moon);
+	--SNDL-Purple_Secondary: var(--Nebula-Night);
+	--SNDL-Purple_Tertiary: var(--Nebula-Abyss);
+	--SNDL-PurpleI_Primary: var(--Nebula-Sun);
+	--SNDL-PurpleI_Secondary: var(--Nebula-Day);
+	--SNDL-PurpleI_Tertiary: var(--Nebula-Sky);
+
+	--SNDL-Pink_Primary: var(--Mika-Moon);
+	--SNDL-Pink_Secondary: var(--Mika-Night);
+	--SNDL-Pink_Tertiary: var(--Mika-Abyss);
+	--SNDL-PinkI_Primary: var(--Mika-Sun);
+	--SNDL-PinkI_Secondary: var(--Mika-Day);
+	--SNDL-PinkI_Tertiary: var(--Mika-Sky);
+}

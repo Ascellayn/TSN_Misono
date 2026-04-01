@@ -1,0 +1,24 @@
+{
+	"Info": {
+		"Name": "Misono Focus",
+		"Internal": "Misono_Focus",
+		"Description": "Blur the main window when a focused modal exists.",
+		"Preview": {
+			"Main": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+		}
+	},
+	"Module": {
+		"Compatibility": {
+			"Dependencies": {
+				"Hard": [
+					"Core_Globals"
+				],
+				"Soft": []
+			}
+		},
+		"Variants": [
+			"Main"
+		],
+		"Settings": []
+	}
+}

@@ -1,0 +1,4 @@
+@keyframes SNDL-Fade_In { 0% { opacity: 0;} }
+@keyframes SNDL-Fade_Out { 100% { opacity: 0;} }
+@keyframes SNDL-Fade_Loop { 0% { opacity: 0;} 50% { opacity: unset;} 100% {opacity: 0;} }
+@keyframes SNDL-Fade_Custom { 0% { opacity: var(--Initial);} 100% { opacity: var(--Final);} }

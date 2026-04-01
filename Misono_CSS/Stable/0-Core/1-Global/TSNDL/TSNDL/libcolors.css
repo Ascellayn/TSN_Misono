@@ -1,0 +1,96 @@
+:root {
+	--SNC-Text_White: rgba(var(--SNDL-White_Primary), 0.95);
+	--SNC-Header_White: rgba(var(--SNDL-White_Secondary), 0.9);
+	--SNC-Text_Grey: rgba(var(--SNDL-Grey_Primary), 0.95);
+	--SNC-Header_Grey: rgba(var(--SNDL-Grey_Secondary), 0.9);
+	--SNC-Text_Black: rgba(var(--SNDL-Black_Primary), 0.95);
+	--SNC-Header_Black: rgba(var(--SNDL-Black_Secondary), 0.9);
+
+
+	--SNC-Text_Red: rgba(var(--SNDL-Red_Primary), 0.95);
+	--SNC-Header_Red: rgba(var(--SNDL-Red_Secondary), 0.9);
+	--SNC-Text_Orange: rgba(var(--SNDL-Orange_Primary), 0.95);
+	--SNC-Header_Orange: rgba(var(--SNDL-Orange_Secondary), 0.9);
+	--SNC-Text_Yellow: rgba(var(--SNDL-Yellow_Primary), 0.95);
+	--SNC-Header_Yellow: rgba(var(--SNDL-Yellow_Secondary), 0.9);
+	--SNC-Text_Green: rgba(var(--SNDL-Green_Primary), 0.95);
+	--SNC-Header_Green: rgba(var(--SNDL-Green_Secondary), 0.9);
+	--SNC-Text_Cyan: rgba(var(--SNDL-Cyan_Primary), 0.95);
+	--SNC-Header_Cyan: rgba(var(--SNDL-Cyan_Secondary), 0.9);
+	--SNC-Text_Blue: rgba(var(--SNDL-Blue_Primary), 0.95);
+	--SNC-Header_Blue: rgba(var(--SNDL-Blue_Secondary), 0.9);
+	--SNC-Text_Purple: rgba(var(--SNDL-Purple_Primary), 0.95);
+	--SNC-Header_Purple: rgba(var(--SNDL-Purple_Secondary), 0.9);
+	--SNC-Text_Pink: rgba(var(--SNDL-Pink_Primary), 0.95);
+	--SNC-Header_Pink: rgba(var(--SNDL-Pink_Secondary), 0.9);
+
+
+	--SNC-Text_Unavailable: var(--SNC-Text_Grey);
+	--SNC-Header_Unavailable: var(--SNC-Header_Grey);
+
+	--SNC-Link_Visited: rgba(var(--SNDL-Purple_Primary), 0.95);
+	--SNC-Link_Visited-Hover: rgba(var(--SNDL-Purple_Secondary), 0.9);
+
+	--SNC-Link_Unavailable: rgba(var(--SNDL-Grey_Primary), 0.8);
+	--SNC-Link_Unavailable-Hover: rgba(var(--SNDL-Grey_Secondary), 0.75);
+}
+
+.theme-light {
+	--SNC-Brightness_High: 1.1;
+	--SNC-Brightness_Medium: 1.075;
+	--SNC-Brightness_Low: 1.05;
+
+	--SNC-IBrightness_High: 0.3;
+	--SNC-IBrightness_Medium: 0.6;
+	--SNC-IBrightness_Low: 0.8;
+
+
+	--SNC-Text: var(--SNC-Text_Black);
+	--SNC-Header: var(--SNC-Header_Black);
+
+	--SNC-IText: var(--SNC-Text_White);
+	--SNC-IHeader: var(--SNC-Header_White);
+
+	--SNC-Solid: white;
+	--SNC-SolidI: black;
+	
+	--SNC-Primary: var(--SNDL-White_Primary);
+	--SNC-Secondary: var(--SNDL-White_Secondary);
+	--SNC-Tertiary: var(--SNDL-White_Tertiary);
+	--SNC-IPrimary: var(--SNDL-Black_Primary);
+	--SNC-ISecondary: var(--SNDL-Black_Secondary);
+	--SNC-ITertiary: var(--SNDL-Black_Tertiary);
+
+	--SNC-Link: rgba(var(--SNDL-Blue_Primary), 0.8);
+	--SNC-Link_Hover: rgba(var(--SNDL-Blue_Tertiary), 0.8);
+}
+
+.theme-dark {
+	--SNC-Brightness_High: 0.3;
+	--SNC-Brightness_Medium: 0.6;
+	--SNC-Brightness_Low: 0.8;
+
+	--SNC-IBrightness_High: 1.1;
+	--SNC-IBrightness_Medium: 1.075;
+	--SNC-IBrightness_Low: 1.05;
+
+
+	--SNC-Text: var(--SNC-Text_White);
+	--SNC-Header: var(--SNC-Header_White);
+
+	--SNC-IText: var(--SNC-Text_Black);
+	--SNC-IHeader: var(--SNC-Header_Black);
+
+	--SNC-Solid: black;
+	--SNC-SolidI: white;
+
+	--SNC-Primary: var(--SNDL-Black_Primary);
+	--SNC-Secondary: var(--SNDL-Black_Secondary);
+	--SNC-Tertiary: var(--SNDL-Black_Tertiary);
+	--SNC-IPrimary: var(--SNDL-White_Primary);
+	--SNC-ISecondary: var(--SNDL-White_Secondary);
+	--SNC-ITertiary: var(--SNDL-White_Tertiary);
+
+	--SNC-Link: rgba(var(--SNDL-Cyan_Primary), 0.8);
+	--SNC-Link_Hover: rgba(var(--SNDL-Cyan_Tertiary), 0.8);
+}

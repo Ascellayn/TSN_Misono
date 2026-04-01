@@ -1,0 +1,8 @@
+[class^="bar_"] > [class^="title_"]::before {
+	position: absolute;
+	left: calc(var(--custom-guild-list-width) + 8px);
+
+	content: "💫  Misono " var(--Misono-Branch) " v" var(--Misono-Version) " - {STRING_USERS} Users Online";
+	color: var(--SNC-Text); opacity: var(--SNDL-UI_Opacity_Background);
+	font-weight: 900;
+}

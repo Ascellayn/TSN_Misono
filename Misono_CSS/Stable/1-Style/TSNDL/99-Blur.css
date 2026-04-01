@@ -1,0 +1,37 @@
+div[class^="notAppAsidePanel_"] > div[class^="layerContainer_"] {
+	/* a LOT of floating elements, menus, etc */
+	> div[class^="clickTrapContainer_"] > div[class^="theme-"] {
+		> [class]::before { /* Tooltips don't have blur because of performance concerns. */
+			position: absolute; top: 0; left: 0; z-index: -1;
+			content: ""; width: 100%; height: 100%;
+			backdrop-filter: blur(var(--SNDL-Blur_Normal));
+
+			border-radius: var(--SNDL-UI_Border-Radius);
+		}
+		> :not([class])::before { /* Instead they'll have a solid background */
+			position: absolute; top: 0; left: 0; z-index: -1;
+			content: ""; width: 100%; height: 100%;
+			background: rgb(var(--SNC-Primary));
+
+			border-radius: var(--SNDL-UI_Border-Radius);
+		}
+		> div {
+			border-radius: var(--SNDL-UI_Border-Radius); 
+		}
+
+	}
+
+	/* Modals */
+	> div[class^="layer_"] > div[class^="focusLock_"] {
+		> :not([class^="carouselModal_"])::before { /* We ignore the Image Previewer because this is handled entirely differently by Misono_Focus */
+			position: absolute; top: 0; left: 0; z-index: -1;
+			content: ""; width: 100%; height: 100%;
+			backdrop-filter: blur(var(--SNDL-Blur_Normal));
+
+			border-radius: var(--SNDL-UI_Border-Radius);
+		}
+		> div { 
+			border-radius: var(--SNDL-UI_Border-Radius); 
+		}
+	}
+}

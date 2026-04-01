@@ -1,0 +1,9 @@
+@keyframes SNDL-Translate_Custom {
+	0% { translate: var(--Initial, 0rem); opacity: 0;}
+	100% { translate: var(--Final, 0rem);}
+}
+
+@keyframes SNDL-Scale_Custom {
+	0% { scale: var(--Initial, 0); opacity: 0;}
+	100% { scale: var(--Final, 1);}
+}

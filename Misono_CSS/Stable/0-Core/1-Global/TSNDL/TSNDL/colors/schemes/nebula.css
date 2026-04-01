@@ -1,0 +1,9 @@
+html {
+	/* Purple */
+	--Nebula-Abyss: 50, 0, 75; /* #32004b */
+	--Nebula-Night: 75, 5, 105; /* #4b0569 */
+	--Nebula-Moon: 95, 10, 135; /* #5f0a87 */
+	--Nebula-Sky: 135, 20, 195; /* #8714c3 */
+	--Nebula-Day: 155, 25, 225; /* #9b19e1 */
+	--Nebula-Sun: 175, 30, 255; /* #af1eff */
+}

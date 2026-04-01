@@ -1,0 +1,13 @@
+:root {
+	font-family: "Roboto", "Fixedsys Excelsior", "Arial";
+	background: var(--SNC-Solid);
+	color: var(--SNC-Text);
+
+	transition: background var(--SNDL-Transition_XSlow);
+	scroll-behavior: smooth;
+}
+
+:is(p, span, h1, h2, h3, h4, h5, h6) {
+	transition: color var(--SNDL-Transition_XSlow);
+	white-space: pre-wrap;
+}

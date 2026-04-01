@@ -1,0 +1,4 @@
+/* Remove the ugly shadowy effect of the mentions pill in channel list */
+div[class*="mentionsBar_"][role="button"] {
+	border: none;
+}

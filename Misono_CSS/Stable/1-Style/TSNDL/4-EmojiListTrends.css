@@ -1,0 +1,5 @@
+/* Remove the ugly ass HARDCODED gradient on those small things discord adds when an emoji is new or popular */
+div[class*="topGuildEmojiBadge_"],
+div[class*="newlyAddedBadge_"] {
+	background: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Floating))
+}

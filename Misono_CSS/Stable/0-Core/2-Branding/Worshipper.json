@@ -1,0 +1,24 @@
+{
+	"Info": {
+		"Name": "Misono Branding",
+		"Internal": "Core_Branding",
+		"Description": "Branding Module for Project Misono.",
+		"Preview": {
+			"Misono": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+		}
+	},
+	"Module": {
+		"Compatibility": {
+			"Dependencies": {
+				"Hard": [
+					"Core_Globals"
+				],
+				"Soft": []
+			}
+		},
+		"Variants": [
+			"Misono"
+		],
+		"Settings": []
+	}
+}

@@ -1,0 +1,9 @@
+html {
+	/* Orange */
+	--Maple-Abyss: 105, 5, 0; /* #690500 */
+	--Maple-Night: 130, 30, 5; /* #821e05 */
+	--Maple-Moon: 155, 55, 10; /* #9b370a */
+	--Maple-Sky: 205, 105, 20; /* #cd6914 */
+	--Maple-Day: 230, 130, 25; /* #e68219 */
+	--Maple-Sun: 255, 155, 30; /* #ff9b1e */
+}

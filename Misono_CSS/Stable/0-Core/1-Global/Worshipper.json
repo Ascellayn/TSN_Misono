@@ -1,0 +1,22 @@
+{
+	"Info": {
+		"Name": "Misono Globals",
+		"Internal": "Core_Globals",
+		"Description": "Core Module for Project Misono, imports namely TSNDL Colors and Variables.",
+		"Preview": {
+			"TSNDL": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+		}
+	},
+	"Module": {
+		"Compatibility": {
+			"Dependencies": {
+				"Hard": [],
+				"Soft": []
+			}
+		},
+		"Variants": [
+			"TSNDL"
+		],
+		"Settings": []
+	}
+}

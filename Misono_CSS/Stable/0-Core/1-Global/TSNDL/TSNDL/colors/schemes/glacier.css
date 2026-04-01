@@ -1,0 +1,9 @@
+html {
+	/* Cyan */
+	--Glacier-Abyss: 0, 130, 135; /* #008287 */
+	--Glacier-Night: 10, 140, 155; /* #0a8c9b */
+	--Glacier-Moon: 28, 150, 175; /* #1c96af */
+	--Glacier-Sky: 40, 170, 205; /* #28aacd */
+	--Glacier-Day: 50, 180, 230; /* #32b4e6 */
+	--Glacier-Sun: 60, 190, 255; /* #3cbeff */
+}

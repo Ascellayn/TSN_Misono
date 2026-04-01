@@ -1,0 +1,9 @@
+section.theme-midnight > div[class^="upperContainer_"] > div[class^="children_"]::before {
+	position: absolute; right: 1rem;
+	content: "Misono's Midnight mode is unfinished, things may look odd!";
+	color: var(--SNC-Text); opacity: 0.5;
+
+	padding: var(--SNDL-UI_Padding);
+	border-radius: var(--SNDL-UI_Border-Radius);
+	background-color: rgba(var(--SNDL-Red_Primary), var(--SNDL-UI_Opacity_Background));
+}

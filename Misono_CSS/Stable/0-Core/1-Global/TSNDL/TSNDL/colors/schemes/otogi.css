@@ -1,0 +1,9 @@
+html {
+	/* Green */
+	--Otogi-Abyss: 0, 135, 30; /* #00871e */
+	--Otogi-Night: 14, 155, 40; /* #0e9b28 */
+	--Otogi-Moon: 28, 175, 50; /* #1caf32 */
+	--Otogi-Sky: 56, 215, 70; /* #38d746 */
+	--Otogi-Day: 70, 240, 80; /* #46f050 */
+	--Otogi-Sun: 84, 255, 90; /* #54ff5a */
+}
