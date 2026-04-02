@@ -111,5 +111,5 @@ Do expect this project to randomly have no updates for a few weeks or even month
 
 
 
-###### [Misono (CSS) © Ascellayn / The Sirio Network (2026) - TSN License 2.1 Strict Timed](./LICENSE.md)
+###### [Misono (CSS) © Ascellayn / The Sirio Network (2026) - TSN License 2.1 Strict](./LICENSE.md)
 ###### Misono (Worshipper) © Ascellayn / The Sirio Network (2026) - All Rights Reserved
