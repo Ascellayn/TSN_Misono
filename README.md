@@ -43,8 +43,8 @@ Head over to https://misono.sirio-network.com and follow the on-screen instructi
 
 *The Sirio Network saves information such as your User-Agent, IP Address andLogin Dates for usage analysis and debugging purposes. We will __NEVER__ sell your data to third party advertisers. Hell, anybody for that matter.*  
 *You can see all the data we store about you in Misono itself and you can very easily delete all of it on the Misono Configurator.*  
-*Furthermore you can opt out of this data collection, __it is enabled by default so beware.__*
-*Disabling telemetry will immediately all delete personal data tied to you, however your UUID and the last time you logged on within 24 hours will be saved*
+*Furthermore you can opt out of this data collection, __it is enabled by default so beware.__*  
+*Disabling telemetry will immediately all delete personal data tied to you, however your UUID and the last time you logged on within 24 hours will still be saved.*  
 
 <br>
 
