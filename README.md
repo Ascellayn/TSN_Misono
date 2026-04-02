@@ -14,7 +14,9 @@
 
 <h2 align="center">The World's NEW most advanced, complex and feature rich Discord Theme to ever exist.</h2>
 
-[*Misono is still in its VERY early stages... Screenshots would be pointless considering the theme changes so much and so fast. if you wanna get a good idea of what it looks like, take a look at [Flashcord's](https://github.com/Ascellayn/Flashcord) screenshots.*]
+| Light (Early) | Dark (Early) |
+|---------------|--------------|
+| ![](https://misono.sirio-network.com/Ressource/Preview/Style_Core+Light.png) | ![](https://misono.sirio-network.com/Ressource/Preview/Style_Core+Dark.png) |
 
 
 
@@ -41,7 +43,8 @@ Head over to https://misono.sirio-network.com and follow the on-screen instructi
 
 *The Sirio Network saves information such as your User-Agent, IP Address andLogin Dates for usage analysis and debugging purposes. We will __NEVER__ sell your data to third party advertisers. Hell, anybody for that matter.*  
 *You can see all the data we store about you in Misono itself and you can very easily delete all of it on the Misono Configurator.*  
-*Furthermore you can opt out of this data collection, it is enabled by default so beware.*
+*Furthermore you can opt out of this data collection, __it is enabled by default so beware.__*
+*Disabling telemetry will immediately all delete personal data tied to you, however your UUID and the last time you logged on within 24 hours will be saved*
 
 <br>
 
