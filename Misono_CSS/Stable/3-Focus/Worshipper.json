@@ -2,9 +2,9 @@
 	"Info": {
 		"Name": "Misono Focus",
 		"Internal": "Misono_Focus",
-		"Description": "Blur the main window when a focused modal exists.",
+		"Description": "### Blur the main window when a focused modal exists.\nThis adds depth to Misono and it helps you focus on whatever big popup (modal) is currently active by bluring and zooming out the main application.\n*You may disable this for performance reasons*",
 		"Preview": {
-			"Main": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+			"Main": "https://misono.sirio-network.com/Ressource/Preview/Misono_Focus.png"
 		}
 	},
 	"Module": {

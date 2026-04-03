@@ -2,9 +2,9 @@
 	"Info": {
 		"Name": "Misono Font",
 		"Internal": "Core_Font",
-		"Description": "Core Module for Project Misono, imports the Roboto and Fixedsys Excelsior Fonts.",
+		"Description": "### Core Module for Project Misono, imports the Roboto and Fixedsys Excelsior Fonts.\n**If you have other CSS / a theme, this module may not work at all if Misono doesn't get loaded first.** Make sure to verify that it is indeed being loaded first if the font isn't displaying correctly.",
 		"Preview": {
-			"TSNDL": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+			"TSNDL": "https://misono.sirio-network.com/Ressource/Preview/Core_Font.png"
 		}
 	},
 	"Module": {

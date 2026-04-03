@@ -2,9 +2,9 @@
 	"Info": {
 		"Name": "Misono Member Compactor",
 		"Internal": "Compactor_Member",
-		"Description": "Flashcord's signature \"member slide\", for Misono.",
+		"Description": "### Flashcord's signature \"member slide\", for Misono.\nThe Member List of a server gets automatically partially retracted when you are not hovering over it.",
 		"Preview": {
-			"Main": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+			"Main": "https://misono.sirio-network.com/Ressource/Preview/Compactor_Member.webp"
 		}
 	},
 	"Module": {

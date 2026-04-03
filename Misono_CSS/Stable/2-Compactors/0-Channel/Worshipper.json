@@ -2,7 +2,7 @@
 	"Info": {
 		"Name": "Misono Channel Compactor",
 		"Internal": "Compactor_Chat",
-		"Description": "Flashcord's signature \"chat slide\", for Misono.",
+		"Description": "### Flashcord's signature \"chat slide\", for Misono.\nThis module currently does nothing.",
 		"Preview": {
 			"Main": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
 		}

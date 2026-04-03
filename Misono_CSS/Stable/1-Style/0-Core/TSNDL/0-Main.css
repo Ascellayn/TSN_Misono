@@ -365,7 +365,7 @@
 	--icon-invert: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
 	--icon-link: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
 	--icon-muted: rgba(var(--SNC-ITertiary), var(--SNDL-UI_Opacity_Floating));
-	--icon-overlay-dark: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
+	--icon-overlay-dark: rgba(var(--SNC-IPrimary), var(--SNDL-UI_Opacity_Solid)); /* Event Icon on Server */
 	--icon-overlay-light: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
 	--icon-status-dnd: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/
 	--icon-status-idle: rgba(var(--SNDL-Green_Primary), var(--SNDL-UI_Opacity_Solid)); /*?*/

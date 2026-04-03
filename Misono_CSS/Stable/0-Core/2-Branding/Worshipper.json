@@ -2,9 +2,9 @@
 	"Info": {
 		"Name": "Misono Branding",
 		"Internal": "Core_Branding",
-		"Description": "Branding Module for Project Misono.",
+		"Description": "### Branding Module for Project Misono.\nThis is not necessary at all, but having this module could help with the growth of Misono if you take screenshots often and someone is interested in the theme you are using.\n**This module also contains the general Misono information that is displayed in the \"My Account\" page.**",
 		"Preview": {
-			"Misono": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+			"Misono": "https://misono.sirio-network.com/Ressource/Preview/Core_Branding.png"
 		}
 	},
 	"Module": {

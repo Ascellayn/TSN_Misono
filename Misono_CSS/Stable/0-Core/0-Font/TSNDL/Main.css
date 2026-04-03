@@ -1099,4 +1099,5 @@
 
 :root {
 	--font-primary: "Roboto", "Fixedsys Excelsior";
+	--font-code: "Fixedsys Excelsior", monospace, "Roboto";
 }

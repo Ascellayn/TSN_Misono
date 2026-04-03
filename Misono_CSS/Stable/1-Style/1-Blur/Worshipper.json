@@ -1,0 +1,24 @@
+{
+	"Info": {
+		"Name": "Misono Style - Blur",
+		"Internal": "Style_Blur",
+		"Description": "### TSNDL Blurring for Discord.\nThis module is responsible for adding blur to most smaller elements inside of Discord. You can disable it for performance reasons, although this may make some things hard to read.",
+		"Preview": {
+			"TSNDL": "https://misono.sirio-network.com/Ressource/Preview/Style_Blur.png"
+		}
+	},
+	"Module": {
+		"Compatibility": {
+			"Dependencies": {
+				"Hard": [
+					"Core_Globals"
+				],
+				"Soft": []
+			}
+		},
+		"Variants": [
+			"TSNDL"
+		],
+		"Settings": []
+	}
+}

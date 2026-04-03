@@ -2,7 +2,8 @@
 	"Core_Font+TSNDL",
 	"Core_Globals+TSNDL",
 	"Core_Branding+Misono",
-	"Misono_Style+TSNDL",
+	"Style_Core+TSNDL",
+	"Style_Blur+TSNDL",
 	"Compactor_Chat+Main",
 	"Compactor_Member+Main",
 	"Misono_Focus+Main"

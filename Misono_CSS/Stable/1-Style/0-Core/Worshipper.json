@@ -1,0 +1,24 @@
+{
+	"Info": {
+		"Name": "Misono Style - Core",
+		"Internal": "Style_Core",
+		"Description": "### TSNDL Color overrides and generic styling for Discord.\nWhile this isn't a core module, this module is very much **integral to Misono**, if you care about consistency that is.\nIf you are using your own color overrides, disabling this would be advisable, although unsupported.",
+		"Preview": {
+			"TSNDL": "https://misono.sirio-network.com/Ressource/Preview/Style_Core.png"
+		}
+	},
+	"Module": {
+		"Compatibility": {
+			"Dependencies": {
+				"Hard": [
+					"Core_Globals"
+				],
+				"Soft": []
+			}
+		},
+		"Variants": [
+			"TSNDL"
+		],
+		"Settings": []
+	}
+}

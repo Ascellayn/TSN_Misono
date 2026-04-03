@@ -2,9 +2,9 @@
 	"Info": {
 		"Name": "Misono Globals",
 		"Internal": "Core_Globals",
-		"Description": "Core Module for Project Misono, imports namely TSNDL Colors and Variables.",
+		"Description": "### Core Module for Project Misono, imports namely **TSNDL Colors and Variables**.\nThis is likely the most critical Module of Misono, disabling it will severely impact the looks of the whole client. If you've got custom color overrides yourself, you could turn this off. Although Misono was very much intended to be used with this.\nThis module is also responsible for showing the Misono Worshipper login notification and eventual account / CSS notices.",
 		"Preview": {
-			"TSNDL": "https://sirio-network.com/Root/backgrounds/static/email_dark.jpg"
+			"TSNDL": "https://sirio-network.com/Root/Banner/TSNDL.png"
 		}
 	},
 	"Module": {
