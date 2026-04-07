@@ -2,7 +2,7 @@
 Thank you to all the 37 people who have participated in the Misono Server Slam!  
 Misono is too far to be realistically be released publicly in my book, so we've gone and closed off to the public Misono.  
 You may ask to be part of the Misono Closed Alpha by requesting so in the [TSN Discord](https://sirio-network.com/discord).  
-*Discord Account created in 2020 required to prevent abuse.*  
+*Discord Account created in 2020 (or older) required to prevent abuse.*  
 
 
 <p align="center">
