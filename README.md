@@ -73,15 +73,14 @@ Paired with a dependency system and a patching system, it's brutally easy to cre
 
 
 # Installation (Online, Recommended)
-Head over to https://misono.sirio-network.com and follow the on-screen instructions.  
+*By using Misono, you also agree to its [Terms of Service](./TERMS_OF_SERVICE.md)*
+
+Head over to https://misono.sirio-network.com/register and follow the on-screen instructions.  
 *Misono does NOT require a "TSN Seminar Account", you are however required to "create an account" which will generate a unique token to use Misono.*  
 *Publishing Misono Addons on its store will however require that Seminar Account to prevent abuse.*
 
 
-*The Sirio Network saves information such as your User-Agent, IP Address andLogin Dates for usage analysis and debugging purposes. We will __NEVER__ sell your data to third party advertisers. Hell, anybody for that matter.*  
-*You can see all the data we store about you in Misono itself and you can very easily delete all of it on the Misono Configurator.*  
-*Furthermore you can opt out of this data collection, __it is enabled by default and is enforced during closed tests so beware.__*  
-*Disabling telemetry will immediately all delete personal data tied to you, however your UUID and the last time you logged on within 24 hours will still be saved.*  
+*The Sirio Network saves some of your information when you use Misono, please read our [Privacy Policy](./PRIVACY_POLICY.md) for more information.*  
 
 <br>
 
@@ -132,17 +131,6 @@ Don't have money? That's fine too, the best thing you can do is spread the word 
 
 
 ## Random Notices
-### Terms of Service
-Like any other TSN Service, we reserve the right to restrict your access to Misono for any reason.  
-Furthermore please respect Misono's license and do not modify it nor use it for a profit.  
-
-
-
-
-<br>
-
-
-
 ### OPEN SOURCE CONCERNS
 Misono is currently under a **source-available** license (for the theme itself, so its CSS) and its Server (also known as the Misono "Worshipper" Server) is currently closed source.  
 When Misono achieves the same level of popularity as what Flashcord once was, **Misono will be under an open source license and its server be rendered public**.  
