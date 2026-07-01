@@ -6,7 +6,7 @@ __pycache__
 Misono_Worshipper/Data
 Misono_Worshipper/Frontend
 
-Misono_Worshipper/Worshipper
+Misono_Worshipper/Common/*
 Misono_Worshipper/App.tsna
 Misono_Worshipper/Config.json
 Misono_Worshipper/Logged.json

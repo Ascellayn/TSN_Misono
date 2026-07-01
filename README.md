@@ -2,7 +2,8 @@
 Thank you to all the 37 people who have participated in the Misono Server Slam!  
 Misono is too far to be realistically be released publicly in my book, so we've gone and closed off to the public Misono.  
 You may ask to be part of the Misono Closed Alpha by requesting so in the [TSN Discord](https://sirio-network.com/discord).  
-*Discord Account created in 2020 (or older) required to prevent abuse.*  
+*Discord Account created in 2020 (or older), (__in 2022 or older starting July 14th__) required to prevent abuse.*  
+*Alternatively you may become a supporter on [Ko-Fi](https://ko-fi.com/ascellayn), more details in the [__Support Misono__](https://github.com/Ascellayn/TSN_Misono#supporting-misonos-development) section*, 
 
 ***Misono's public release date is planned for mid/late 2027***
 
@@ -20,7 +21,7 @@ You may ask to be part of the Misono Closed Alpha by requesting so in the [TSN D
 
 <h1 align="right">This is Project Misono</h1>
 
-[*Misono is still in its VERY early stages... Consider looking at [Flashcord's](https://github.com/Ascellayn/Flashcord) screenshots to get a full list of the features planned to be added by Misono.*]
+[***Misono is still in its VERY early stages... Consider looking at [Flashcord's](https://github.com/Ascellayn/Flashcord) screenshots to get a full list of the features planned to be added by Misono.***]
 
 ![](https://misono.sirio-network.com/Ressource/Preview/Style_Animations.webp)
 
@@ -32,13 +33,13 @@ You may ask to be part of the Misono Closed Alpha by requesting so in the [TSN D
 
 <h2 align="center">The World's NEW most advanced, complex and feature rich Discord Theme to ever exist.</h2>
 
-| Light (Early) | Dark (Early) |
-|---------------|--------------|
-| ![](https://misono.sirio-network.com/Ressource/Preview/Style_Core+Light.png) | ![](https://misono.sirio-network.com/Ressource/Preview/Style_Core+Dark.png) |
+| Light (Early) | Dark (Early) | Midnight (Early) |
+|---------------|--------------|----------------------------
+| ![](https://misono.sirio-network.com/Ressource/Preview/Style_Core+Light.png) | ![](https://misono.sirio-network.com/Ressource/Preview/Style_Core+Dark.png) | ![](https://misono.sirio-network.com/Ressource/Preview/Theme_Midnight.png) |
 
-| Custom Background Mode (Extremely Early) | Midnight (Extremely Early) |
-|------------------------------------------|----------------------------|
-| ![](https://misono.sirio-network.com/Ressource/Preview/Theme_CBM.png) | ![](https://misono.sirio-network.com/Ressource/Preview/Theme_Midnight.png) |
+| Custom Background Mode (Early, Light) | Custom Background Mode (Early, Dark) | Custom Background Mode (Early, "Iridescent") | 
+|---------------------------------------|--------------------------------------|----------------------------------------------|
+| ![](https://misono.sirio-network.com/Ressource/Preview/Theme_CBM+Light.png) | ![](https://misono.sirio-network.com/Ressource/Preview/Theme_CBM+Main.png) | ![](https://misono.sirio-network.com/Ressource/Preview/Theme_CBM+Iridescent.png) |
 
 
 
@@ -46,7 +47,7 @@ You may ask to be part of the Misono Closed Alpha by requesting so in the [TSN D
 
 
 
-<h3 align="left">Built on top of Flashcord's Legacy and The Sirio Network's Design Language</h3>
+<h3 align="left">Built on top of <a href="https://github.com/Ascellayn/Flashcord">Flashcord's Legacy</a> and <a href="https://sirio-network.com/project/tsndl">The Sirio Network's Design Language</a></h3>
 
 Project Misono is built following Flashcord's footsteps of **pushing pure CSS to its absolute limits** featuring a brand new, unmatched configuration system that *no longer requires typing tedious amounts of CSS* to configure itself (assuming your client mod isn't garbage and actually applies the CSS you wrote).  
 Misono follows closely TSNDL once again, with the difference to Flashcord being that *TSNDL wasn't created in parallel* because of it. This means an extremely consistent look and feel to all of TSN's other products such as Adellian.
@@ -96,6 +97,21 @@ You are on your own for now to manually compile the CSS files of Misono to your 
 
 
 
+# Supporting Misono's Development
+Unfortunately, unlike the Flashcord days, this time I have to pay to have a roof over my head, the food, electricity, the everything. And the worst part is my quite severe college debt.  
+If you can spare a coin to me it would mean the world to me. I don't offer much right now, but by supporting me on [Ko-Fi](https://ko-fi.com/ascellayn) for **ANY AMOUNT** you get:
+- Early access to Misono's Closed Versions (if you do not meet the account age requirements)
+- A quote permanently written in Misono's "About Misono" section, front and center when someone opens their user settings (like the ol' Flashcord days)
+- Everything else that you may get as a supporter for [other TSN Projects](https://sirio-network.com/projects)
+
+Don't have money? That's fine too, the best thing you can do is spread the word about Misono, or **starring the repository** *(which also shows automatically your GitHub username in Misono if you star the repo!)*
+
+
+
+<br>
+
+
+
 ## Misono's Branches
 - **Eleison**
 	- Eleison (literally means "Have Mercy", reference to [Mika's EX Skill](https://bluearchive.wiki/wiki/Mika)) is the **most unstable and rawest branch of Misono**. It is a brutally updated branch as **I literally actively develop on it**. This means that ANY test changes that I do on my end is available directly to everyone.
@@ -138,7 +154,7 @@ This is solely to have a proper user base, testing and refining Misono (especial
 
 
 ### MISONO IS FAR FROM FINISHED. LIKE REALLY FAR AWAY. LIKE 79 SOLAR SYSTEMS FAR AWA-
-Flashcord is big. Like really big. Flashcord's life lasted well over a year **and it NEVER got out of beta**. Lower your expectations, Misono isn't finished in the slightest and will for a very long time, always be merely a shadow of what Flashcord was.  
+Flashcord is big. Like really big. Flashcord's life lasted well over two years **and it NEVER got out of beta**. Lower your expectations, Misono isn't finished in the slightest and will for a very long time, always be merely a shadow of what Flashcord was.  
 Misono's much more modular and cleaner codebase could however still allow it to maybe get finished FAR faster to Flashcord, but I'm now a college student so time isn't really something I have anymore.  
 Do expect this project to randomly have no updates for a few weeks or even months. (looking at you [TSN_Kosaka](https://github.com/Ascellayn/Kosaka_Issues))
 
