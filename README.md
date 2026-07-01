@@ -104,9 +104,10 @@ If you can spare a coin to me it would mean the world to me. I don't offer much 
 - A quote permanently written in Misono's "About Misono" section, front and center when someone opens their user settings (like the ol' Flashcord days)
 - Everything else that you may get as a supporter for [other TSN Projects](https://sirio-network.com/projects)
 
+**You must join [The Sirio Network's Discord Server](https://sirio-network.com/discord) in order to acquire the Supporter role and to have all your perks set up.**  
 Don't have money? That's fine too, the best thing you can do is spread the word about Misono, or **starring the repository** *(which also shows automatically your GitHub username in Misono if you star the repo!)*
 
-
+![](https://misono.sirio-network.com/Ressource/Preview/__Supporters.png)
 
 <br>
 
